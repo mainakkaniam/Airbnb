@@ -19,12 +19,13 @@ height:5.5rem;
     height:44px;
     width:390px;
     border-radius:2rem;
+    margin-left: -17vw;
   }
   .search-icon{
     margin-left:289px;
     }
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 576px) and (max-width: 900px) {
   .searchbar {
     padding:2px;
     margin-top:24px;
@@ -97,6 +98,14 @@ margin-top:-3px;
 .map{
 display:none
 }
+.searchbar{
+padding: 2px;
+margin-top: 24px;
+height: 40px;
+width: 45vw;
+border-radius: 2rem;
+margin-left: -7vw;
+}
 }
 @media (min-width: 768px) {
     .wanna{
@@ -114,6 +123,9 @@ color:#FF6D60;
 }
 }
 @media (max-width: 576px) {
+.globe{
+display:none
+}
  .help{
   background-color:black;
   color:white;
@@ -191,3 +203,32 @@ color:#FF6D60;
  .map{
  background-color:#FF6D60;
  }
+
+ @media (min-width: 576px) {
+ .wanna {
+  background-color: white;
+  width: 500px;
+  padding: 4px;
+  border-radius: 1.5rem;
+  height: 50px;
+  border: 2px solid #FF6D60;
+}
+.go {
+  font-size: 29px;
+  margin-left: 30px;
+  color: #FF6D60;
+}
+.help {
+  background-color: black;
+  color: white;
+  border-radius: 1.5rem;
+  font-size: 26px;
+  padding: 9px;
+    padding-left: 9px;
+  padding-left: 2px;
+  width: 237px;
+  border: 2px solid white;
+  margin-top: 9px;
+  transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+  }
+  }

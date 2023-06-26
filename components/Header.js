@@ -78,7 +78,7 @@ function Header({placeholder}) {
           </div>
           {/* right */}
           <div className="flex space-x-3 md:space-x-7 items-center justify-end text-gray-500">
-             <div className="change flex space-x-1">
+             <div className="globe change flex space-x-1">
               <p className="hidden md:inline cursor-pointer text-lg">Become a host</p>
               <GlobeAltIcon className="globe h-7 cursor-pointer" />
              </div>     
